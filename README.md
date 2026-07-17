@@ -61,4 +61,4 @@ If you use this code, please cite the paper (citation will be added upon accepta
 
 ## Contact
 
-Doygun Demirol — <ddemirol@bingol.edu.tr>
+Doygun Demirol — <ddemirol@bingol.edu.tr> <doygundemirol@gmail.com>
