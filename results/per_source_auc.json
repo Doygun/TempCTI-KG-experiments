@@ -1,0 +1,58 @@
+{
+  "attck": {
+    "n_pairs": 104533,
+    "positive_rate": 0.9101,
+    "static_kg": {
+      "brier": 0.0899,
+      "auc": 0.5
+    },
+    "fixed_ttl": {
+      "brier": 0.7863,
+      "auc": 0.5678
+    },
+    "global_decay": {
+      "brier": 0.9093,
+      "auc": 0.7699
+    },
+    "logreg_temporal": {
+      "brier": 0.0672,
+      "auc": 0.8023
+    },
+    "tempcti_exp": {
+      "brier": 0.071,
+      "auc": 0.7901
+    },
+    "tempcti_weibull": {
+      "brier": 0.0675,
+      "auc": 0.807
+    }
+  },
+  "abusech": {
+    "n_pairs": 336700,
+    "positive_rate": 0.0889,
+    "static_kg": {
+      "brier": 0.9111,
+      "auc": 0.5
+    },
+    "fixed_ttl": {
+      "brier": 0.3021,
+      "auc": 0.7556
+    },
+    "global_decay": {
+      "brier": 0.1134,
+      "auc": 0.8355
+    },
+    "logreg_temporal": {
+      "brier": 0.0694,
+      "auc": 0.8355
+    },
+    "tempcti_exp": {
+      "brier": 0.067,
+      "auc": 0.8355
+    },
+    "tempcti_weibull": {
+      "brier": 0.0648,
+      "auc": 0.8355
+    }
+  }
+}

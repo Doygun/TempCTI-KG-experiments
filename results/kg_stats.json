@@ -1,0 +1,18 @@
+{
+  "attck_nodes_total": 2872,
+  "attck_node_types": {
+    "attack-pattern": 727,
+    "malware": 726,
+    "x-mitre-detection-strategy": 691,
+    "course-of-action": 285,
+    "intrusion-set": 183,
+    "x-mitre-data-component": 109,
+    "tool": 95,
+    "campaign": 55
+  },
+  "attck_edges": 25081,
+  "attck_relation_types": 6,
+  "urlhaus_url_nodes": 67394,
+  "urlhaus_family_nodes": 1329,
+  "urlhaus_url_family_edges": 86786
+}

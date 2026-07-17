@@ -1,0 +1,86 @@
+{
+  "task4_versioning": {
+    "theta": 0.5,
+    "n_events": 62121,
+    "note": "signal-free (kappa-only) regime; with explicit signals retraction time equals signal time",
+    "per_category": {
+      "detection": {
+        "n": 30,
+        "retract_at_exp_days": 60284.0,
+        "retract_at_weibull_days": 2065.3,
+        "mae_exp_days": 59157.1,
+        "mae_weibull_days": 938.4,
+        "median_ae_weibull_days": 938.4
+      },
+      "file_hash": {
+        "n": 1,
+        "retract_at_exp_days": 199.4,
+        "retract_at_weibull_days": 3.0,
+        "mae_exp_days": 198.5,
+        "mae_weibull_days": 2.1,
+        "median_ae_weibull_days": 2.1
+      },
+      "meta": {
+        "n": 5,
+        "retract_at_exp_days": 43684.1,
+        "retract_at_weibull_days": 5990.5,
+        "mae_exp_days": 42079.2,
+        "mae_weibull_days": 4385.7,
+        "median_ae_weibull_days": 4294.4
+      },
+      "mitigation": {
+        "n": 540,
+        "retract_at_exp_days": 4869.5,
+        "retract_at_weibull_days": 2457.7,
+        "mae_exp_days": 2796.0,
+        "mae_weibull_days": 412.9,
+        "median_ae_weibull_days": 579.6
+      },
+      "network_ioc_url": {
+        "n": 60553,
+        "retract_at_exp_days": 3.2,
+        "retract_at_weibull_days": 1.5,
+        "mae_exp_days": 3.6,
+        "mae_weibull_days": 2.4,
+        "median_ae_weibull_days": 1.0
+      },
+      "technique_hierarchy": {
+        "n": 2,
+        "retract_at_exp_days": 314916.4,
+        "retract_at_weibull_days": 7418.3,
+        "mae_exp_days": 313220.3,
+        "mae_weibull_days": 5722.2,
+        "median_ae_weibull_days": 5722.2
+      },
+      "ttp_use": {
+        "n": 990,
+        "retract_at_exp_days": 21684.9,
+        "retract_at_weibull_days": 4761.4,
+        "mae_exp_days": 19881.9,
+        "mae_weibull_days": 2958.4,
+        "median_ae_weibull_days": 2821.5
+      }
+    }
+  },
+  "task5_scalability": {
+    "hardware": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "n_repeats": 100,
+    "results": [
+      {
+        "n_edges": 5000,
+        "mean_query_ms": 0.017,
+        "n_active": 3867
+      },
+      {
+        "n_edges": 50000,
+        "mean_query_ms": 0.161,
+        "n_active": 38582
+      },
+      {
+        "n_edges": 500000,
+        "mean_query_ms": 3.899,
+        "n_active": 385765
+      }
+    ]
+  }
+}

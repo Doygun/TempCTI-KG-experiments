@@ -1,0 +1,44 @@
+{
+  "attribution": {
+    "n_total": 29,
+    "n_event": 0,
+    "n_censored": 29,
+    "median_lifetime_months": 19.55,
+    "mean_lifetime_months": 19.92
+  },
+  "detection": {
+    "n_total": 2864,
+    "n_event": 30,
+    "n_censored": 2834,
+    "median_lifetime_months": 42.31,
+    "mean_lifetime_months": 29.95
+  },
+  "meta": {
+    "n_total": 165,
+    "n_event": 5,
+    "n_censored": 160,
+    "median_lifetime_months": 74.01,
+    "mean_lifetime_months": 62.78
+  },
+  "mitigation": {
+    "n_total": 2037,
+    "n_event": 540,
+    "n_censored": 1497,
+    "median_lifetime_months": 67.12,
+    "mean_lifetime_months": 61.17
+  },
+  "technique_hierarchy": {
+    "n_total": 493,
+    "n_event": 2,
+    "n_censored": 491,
+    "median_lifetime_months": 74.01,
+    "mean_lifetime_months": 60.39
+  },
+  "ttp_use": {
+    "n_total": 19493,
+    "n_event": 990,
+    "n_censored": 18503,
+    "median_lifetime_months": 55.32,
+    "mean_lifetime_months": 52.18
+  }
+}

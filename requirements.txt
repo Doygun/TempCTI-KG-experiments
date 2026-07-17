@@ -1,0 +1,10 @@
+numpy
+pandas
+scipy
+scikit-learn
+lifelines
+matplotlib
+networkx
+requests
+stix2
+mitreattack-python

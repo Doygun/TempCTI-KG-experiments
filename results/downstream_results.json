@@ -1,0 +1,65 @@
+{
+  "primary_tau": 0.5,
+  "methods": {
+    "static": {
+      "mean_srr": 1.0,
+      "mean_prec": 0.294,
+      "mean_rec": 1.0,
+      "mean_f1": 0.4392,
+      "mean_alerts": 2707.9,
+      "tp_retention_pct": 100.0
+    },
+    "ttl": {
+      "mean_srr": 0.6768,
+      "mean_prec": 0.3862,
+      "mean_rec": 0.9905,
+      "mean_f1": 0.5508,
+      "mean_alerts": 1691.2,
+      "tp_retention_pct": 98.8
+    },
+    "exp": {
+      "mean_srr": 0.1094,
+      "mean_prec": 0.8513,
+      "mean_rec": 0.8143,
+      "mean_f1": 0.8308,
+      "mean_alerts": 581.2,
+      "tp_retention_pct": 81.2
+    },
+    "weibull": {
+      "mean_srr": 0.0394,
+      "mean_prec": 0.9488,
+      "mean_rec": 0.7391,
+      "mean_f1": 0.83,
+      "mean_alerts": 482.9,
+      "tp_retention_pct": 74.7
+    }
+  },
+  "sensitivity_tau_weibull": {
+    "0.25": {
+      "mean_srr": 0.173,
+      "mean_prec": 0.7701,
+      "mean_rec": 0.8624,
+      "mean_f1": 0.8114,
+      "mean_alerts": 677.3,
+      "tp_retention_pct": 85.6
+    },
+    "0.5": {
+      "mean_srr": 0.0394,
+      "mean_prec": 0.9488,
+      "mean_rec": 0.7391,
+      "mean_f1": 0.83,
+      "mean_alerts": 482.9,
+      "tp_retention_pct": 74.7
+    },
+    "0.75": {
+      "mean_srr": 0.0,
+      "mean_prec": 1.0,
+      "mean_rec": 0.6807,
+      "mean_f1": 0.8082,
+      "mean_alerts": 432.9,
+      "tp_retention_pct": 69.9
+    }
+  },
+  "srr_reduction_vs_static_pct": 96.1,
+  "active_fact_reduction_pct": 82.2
+}

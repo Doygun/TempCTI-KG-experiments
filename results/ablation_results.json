@@ -1,0 +1,18 @@
+{
+  "Full model (TempCTI-KG, Weibull)": {
+    "auc": 0.9516,
+    "brier": 0.0654
+  },
+  "w/o Weibull shape (Exponential)": {
+    "auc": 0.9505,
+    "brier": 0.0679
+  },
+  "w/o relation-type conditioning": {
+    "auc": 0.2185,
+    "brier": 0.3225
+  },
+  "w/o temporal modeling (Static KG)": {
+    "auc": 0.5,
+    "brier": 0.7166
+  }
+}
