@@ -57,7 +57,20 @@ Note: abuse.ch feeds are live; re-fetching will produce a newer snapshot than th
 
 ## Citation
 
-If you use this code, please cite the paper (citation will be added upon acceptance).
+If you use the code, datasets, or experimental results from this repository, please cite the following paper:
+
+```bibtex
+@article{DEMIROL2026100383,
+  title = {TempCTI-KG: Temporal validity and confidence decay modeling for Cyber Threat Intelligence knowledge graphs},
+  author = {Doygun Demirol},
+  journal = {Telematics and Informatics Reports},
+  volume = {24},
+  pages = {100383},
+  year = {2026},
+  doi = {10.1016/j.teler.2026.100383},
+  url = {https://www.sciencedirect.com/science/article/pii/S2772503026000940}
+}
+```
 
 ## Contact
 
